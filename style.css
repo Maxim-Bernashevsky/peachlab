@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Stoke);
+
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	background: linear-gradient(to top, #ffdfdf, #fafafa);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+body svg {
+	display: inline-block;
+	width: 210px;
+	height: 210px;
+	position: relative;
+}
+
+body svg .circle {
+	stroke-miterlimit: 10;
+	fill: rgba(255, 255, 255, 0);
+}
+
+body svg .text {
+	font-family: Stoke;
+	font-size: 87px;
+	fill: #444441;
+}
+
+body #circle {
+	transform: rotate(-90deg);
+	left: 210px;
+}
+
+body #textL {
+	right: 192px;
+}
+
+h3 {
+	font-family: Calibri;
+	font-weight: normal;
+	color: #f0ced5;
+}
